@@ -1,5 +1,5 @@
 docker-compose run app rails new . --force --no-deps --database=postgresql --skip-bundle
-??? docker-compose run app bundle update
+docker-compose run app bundle update
 
 このタイミングで database.yml を修正
 
